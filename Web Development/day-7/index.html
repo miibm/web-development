@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css" integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #newparaid{
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 33px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p id="newpara" class="paraclass">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore inventore quam. Cumque delectus doloribus, dignissimos saepe sit placeat deserunt repellat repellendus. Temporibus, aliquam sed assumenda ipsum rem provident nam!
+    </p>
+    <p id="para" class="paraclass">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore inventore quam. Cumque delectus doloribus, dignissimos saepe sit placeat deserunt repellat repellendus. Temporibus, aliquam sed assumenda ipsum rem provident nam!
+    </p>
+    <p id="para" class="paraclass">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore inventore quam. Cumque delectus doloribus, dignissimos saepe sit placeat deserunt repellat repellendus. Temporibus, aliquam sed assumenda ipsum rem provident nam!
+    </p>
+
+   
+    <button id="btn" onclick="change()">click to change text</button> -->
+
+    <!-- <button id="btn">click to change text</button>
+    <h4 id="count"></h4> -->
+
+
+    <div class="container ">
+        <div class="border border-success w-50 p-4 bg-dark text-light">
+            <h1>Login Form</h1>
+            <form method="post" onsubmit="return validate()" name="form" action="../day-4/assessment-2/Day 1/index.html" class="was-validated">
+                <label for="" class="form-label">Username</label>
+                <input name="username" type="text" class="form-control " >
+                <div class="valid-feedback">valid</div>
+                <div class="invalid-feedback">invalid</div>
+
+                <label for="" class="form-label">Email</label>
+                <input name="email"  type="text" class="form-control " >
+                <div class="valid-feedback">valid</div>
+                <div class="invalid-feedback">invalid</div>
+
+                <label for="" class="form-label">Password</label>
+                <input name="password"  type="password" class="form-control " >
+                <div class="valid-feedback">valid</div>
+                <div class="invalid-feedback">invalid</div>
+
+                <button type="submit" class="btn btn-primary" >Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+            // let btn = document.querySelector("#btn");
+            // let count = 0;
+            // btn.addEventListener(
+            //     'click',
+            //     () => {
+            //         count++;
+            //         document.getElementById('count').innerHTML = count;
+            //     }
+            // );
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

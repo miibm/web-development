@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        td,tr,th{
+            border: 2px solid rgb(227, 14, 14);
+            text-align: center;
+        }
+        tr{
+            border-radius: 50%;
+        }
+        td{
+            padding: 2px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        table,tr{
+            overflow:scroll;
+        }
+        tbody>tr:hover{
+            background-color: brown;
+            color: white;
+        }
+        tbody>tr:hover th{
+            background-color: white;
+            color: black;
+        }
+        tbody>tr>td:hover{
+            background-color: red;
+            color: white;
+        }
+
+        /* tbody>tr:nth-child(odd){
+            background-color: black;
+            color: white;
+        }
+        tbody>tr:nth-child(even){
+            background-color: rgb(18, 30, 207);
+            color: white;
+        } */
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Days</th>
+                <th>09.00 AM</th>
+                <th>10.00 AM</th>
+                <th>11.00 AM</th>
+                <th>12.00 PM</th>
+                <th>02.00 PM</th>
+                <th>03.00 PM</th>
+                <th>04.00 PM</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <th>Thurday</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
